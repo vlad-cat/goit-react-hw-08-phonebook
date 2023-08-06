@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  padding: 24px;
+  background-color: rgb(41, 84, 80);
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #2a363b;
+}
+.user {
+  color: white;
+  padding-top: 38px;
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.btn {
+  background-color: lightcyan;
+  margin-left: 16px;
+  border: 1px solid lightcyan;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: lightgray;
+}

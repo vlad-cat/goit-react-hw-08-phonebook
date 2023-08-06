@@ -1,0 +1,27 @@
+.section {
+  height: 600px;
+  background-image: url('../../pictures/hand.png');
+  background-size: 500px;
+  background-repeat: no-repeat; /* Зображення не повторюватиметься */
+  background-position: right center;
+  border: 2px solid rgb(7, 53, 8);
+  border-radius: 24px;
+
+  & h2 {
+    font-size: 36px;
+    text-align: center;
+    color: rgb(2, 49, 28);
+  }
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 60px;
+}
+.link {
+  font-size: 28px;
+  text-align: center;
+  color: rgb(2, 49, 28);
+  text-decoration: none;
+}
